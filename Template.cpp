@@ -12,11 +12,15 @@ using namespace std;
 #define scnl(a) scanf("%lld",&a)
 #define sccnl(a,b) scanf("%lld%lld",&a,&b)
 #define scccnl(a,b) scanf("%lld%lld%lld",&a,&b,&c)
+#define scnc(c) scanf(" %c",&c)
 
-#define FOR(i,a,b) for(int i = a; i<b; ++i)
-#define forrev(i,a,b) for(int i = a-1; i>=b; --i)
-#define for0(i,b) FOR(i,0,b)
+#define rep(i,n) for(int i = 0; i<n; ++i)
+#define repab(i,a,b) for(int i = a; i<=b; ++i)
+#define repba(i,b,a) for(int i = b-1; i>=a; --i)
 
+#define printar(i,ar,n) for(int i = 1; i<=n; ++i) printf("%d ",ar[i]); puts("")
+
+#define ms(a,val) memset(a,val,sizeof(a))
 #define pii pair<int,int>
 #define pb(a) push_back(a)
 #define pbp(a,b) push_back({a,b});
@@ -26,8 +30,8 @@ using namespace std;
 #define PI acos(-1)
 #define MOD 1000000007
 #define eps 0.00000001
-#define inf 1<<31
-
+#define inf 0x3f3f3f
+#define MX 100005
 
 int main(){
     int t;
