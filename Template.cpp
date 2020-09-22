@@ -8,10 +8,10 @@ using namespace std;
 
 #define scn(a) scanf("%d",&a)
 #define sccn(a,b) scanf("%d%d",&a,&b)
-#define scccn(a,b) scanf("%d%d%d",&a,&b,&c)
+#define scccn(a,b,c) scanf("%d%d%d",&a,&b,&c)
 #define scnl(a) scanf("%lld",&a)
 #define sccnl(a,b) scanf("%lld%lld",&a,&b)
-#define scccnl(a,b) scanf("%lld%lld%lld",&a,&b,&c)
+#define scccnl(a,b,c) scanf("%lld%lld%lld",&a,&b,&c)
 #define scnc(c) scanf(" %c",&c)
 
 #define rep(i,n) for(int i = 0; i<n; ++i)
